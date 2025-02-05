@@ -1,0 +1,76 @@
+' ################
+' color definition
+' ################
+!$color_fg_mono_0 = "#fafafa"
+!$color_fg_mono_1 = "#dfdede"
+!$color_fg_mono_2 = "#c4c3c3"
+!$color_fg_mono_3 = "#aaa8a8"
+!$color_fg_mono_4 = "#918e8e"
+
+!$color_bg_mono_0 = "#191b1f"
+!$color_bg_mono_1 = "#1f2227"
+!$color_bg_mono_2 = "#262930"
+!$color_bg_mono_3 = "#2c3039"
+!$color_bg_mono_4 = "#333842"
+
+!$color_cyan_hi  = "#02e8fe"
+!$color_cyan     = "#28d7f2"
+!$color_cyan_low = "#32bbf2"
+!$color_purple   = "#777df1"
+!$color_pink_low = "#9d49f2"
+!$color_pink     = "#c62af2"
+!$color_pink_hi  = "#fe01f7"
+
+' ######################
+' color related skinning
+' ######################
+skinparam BackgroundColor transparent
+skinparam DefaultFontColor $color_fg_mono_1
+
+skinparam Package {
+  BackgroundColor $color_bg_mono_2
+  FontColor $color_fg_mono_2
+  BorderColor $color_fg_mono_2
+  BorderThickness 3
+}
+
+skinparam Card {
+  BackgroundColor $color_bg_mono_3
+  FontColor $color_purple
+  BorderColor $color_purple
+  BorderThickness 3
+}
+
+skinparam Queue {
+  BackgroundColor $color_bg_mono_4
+  BorderColor $color_cyan
+  BorderThickness 3
+}
+
+skinparam Usecase {
+  BackgroundColor $color_bg_mono_4
+  BorderColor $color_pink
+  BorderThickness 3
+}
+
+skinparam Database {
+  BackgroundColor $color_bg_mono_2
+  BorderColor $color_fg_mono_2
+  BorderThickness 3
+}
+
+' ##########################
+' non color related skinning
+' ##########################
+skinparam DefaultFontName Arial  
+skinparam DefaultFontSize 14  
+
+skinparam ArrowFontSize 10  
+skinparam ArrowThickness 2
+skinparam ArrowColor $color_pink 
+
+skinparam Shadowing true
+
+skinparam linetype ortho
+
+skinparam RoundCorner 20
